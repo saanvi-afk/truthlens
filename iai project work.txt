@@ -1,0 +1,119 @@
+﻿Project Workflow: Propaganda & Fake News Detection
+Phase 1: Setup & Understanding (Week 1)
+
+
+Set up Python environment (Jupyter Notebook, basic libraries: pandas, sklearn, nltk)
+Download datasets:
+
+
+Propaganda: QPropa or SemEval 2020 Task 11 dataset
+Fake News: ISOT or LIAR dataset
+
+
+
+
+Read 2-3 research papers to understand the problem (I can suggest some)
+Split team roles: data preprocessing, model building, visualization/analysis
+
+
+Phase 2: Data Exploration (Week 1-2)
+
+
+Load and explore datasets (check balance, missing values, text length)
+Cool visualizations to make:
+
+
+Word clouds (fake vs real news)
+Text length distribution
+Most common words/phrases in each category
+Sentiment analysis comparison
+
+
+
+
+Create baseline statistics
+
+
+Phase 3: Preprocessing (Week 2)
+
+
+Text cleaning: remove URLs, special characters, lowercase
+Tokenization and stopword removal
+Feature extraction:
+
+
+Simple approach: TF-IDF (term frequency-inverse document frequency)
+Optional: Word embeddings if you want to explore
+
+
+
+
+
+
+Phase 4: Model Building (Week 3-4)
+Start Simple, Then Improve:
+
+
+Baseline Models (easy to understand):
+
+
+Logistic Regression with TF-IDF
+Naive Bayes
+Random Forest
+
+
+
+
+Slightly Advanced (if time permits):
+
+
+LSTM or simple Neural Network
+BERT-tiny or DistilBERT (pre-trained, lightweight)
+
+
+
+
+
+
+Novel twist: Train separate models for propaganda vs fake news, then create an ensemble that combines both
+Phase 5: Analysis & Explainability (Week 4-5)
+This is where you stand out:
+
+
+Confusion Matrix - show what the model gets wrong
+Feature Importance - which words/phrases are most indicative of fake news?
+Error Analysis - manually check misclassified examples, find patterns
+LIME or SHAP - explain individual predictions (shows highlighted text)
+Propaganda Technique Detection - can you identify which propaganda techniques are used?
+Comparative Analysis - How does fake news differ from propaganda linguistically?
+
+
+Phase 6: Demo/Interface (Week 5-6)
+Build something interactive:
+
+
+Simple web app using Streamlit or Gradio
+User pastes article → model classifies + shows explanation
+Displays confidence scores and highlighted suspicious phrases
+
+
+Phase 7: Documentation & Report (Week 6)
+
+
+Write methodology, results, analysis
+Create presentation with your cool visualizations
+Discuss limitations and future work
+
+
+
+
+Recommended Tech Stack (All Beginner-Friendly):
+
+
+Python 3.8+
+scikit-learn (main ML library)
+pandas, numpy (data handling)
+matplotlib, seaborn (visualization)
+wordcloud (cool visuals)
+Streamlit (easy web interface)
+Optional: transformers library (for BERT if you want)
