@@ -1,7 +1,4 @@
-"""
-Curated sample dataset for Propaganda & Fake News Detection demo.
-No external downloads required — ships with the project.
-"""
+
 
 import pandas as pd
 import numpy as np

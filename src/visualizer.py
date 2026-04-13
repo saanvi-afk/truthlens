@@ -1,7 +1,4 @@
-"""
-Visualization utilities: word clouds, charts, sentiment analysis, confusion matrix.
-All colors use pastel palette to match the brutalist black & sky blue theme.
-"""
+
 
 import os
 import sys
@@ -21,7 +18,7 @@ from data.sample_data import FAKE_NEWS, REAL_NEWS, PROPAGANDA
 from src.preprocessor import clean_text, tokenize_and_remove_stopwords
 
 
-# ─── PASTEL & NEON GREEN PALETTE ──────────────────────────────────────────────
+# ─── PASTEL & NEON GREEN PALETTE 
 COLORS = {
     "fake":       "#F4A7A7",   # pastel red
     "real":       "#A7F4BC",   # pastel green

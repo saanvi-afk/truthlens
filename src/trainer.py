@@ -29,7 +29,7 @@ def train_and_save_all(force_retrain=False):
     """
     results = {}
 
-    # ── Task 1: Fake News Detection (FAKE vs REAL) ─────────────────────────
+    # ── Task 1: Fake News Detection (FAKE vs REAL)
     print("=" * 60)
     print("Training Fake News Detection Models (FAKE vs REAL)...")
     print("=" * 60)

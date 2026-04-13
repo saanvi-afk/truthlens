@@ -2,7 +2,7 @@
 
 A machine learning web application that classifies news articles as **FAKE** or **REAL** and detects **propaganda techniques**, with word-level explainability.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Install dependencies
@@ -14,7 +14,7 @@ streamlit run app.py
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 iai_miniproject/
@@ -31,7 +31,7 @@ iai_miniproject/
 └── models/                 # Saved model files (auto-generated)
 ```
 
-## 🔬 Pipeline
+## Pipeline
 
 1. **Text Cleaning** — Remove URLs, HTML, special characters, lowercase
 2. **Tokenization** — NLTK word tokenizer + stopword removal
@@ -39,7 +39,7 @@ iai_miniproject/
 4. **Classification** — Logistic Regression / Naive Bayes / Random Forest / Ensemble
 5. **Explainability** — Word-level feature attribution + text highlighting
 
-## 🤖 Models
+##  Models
 
 | Model | Task |
 |-------|------|
@@ -48,7 +48,7 @@ iai_miniproject/
 | Random Forest | Fake News & Propaganda |
 | Ensemble (majority vote) | Both tasks |
 
-## 📚 References
+##  References
 
 - Da San Martino et al. (2019). *Fine-Grained Analysis of Propaganda in News Article*. EMNLP.
 - Ahmed et al. (2017). *Detection of Online Fake News Using N-Gram Analysis and ML*. INISTA.

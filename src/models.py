@@ -1,7 +1,4 @@
-"""
-ML classifier models for Propaganda & Fake News Detection.
-Supports: Logistic Regression, Naive Bayes, Random Forest, Ensemble.
-"""
+
 
 import os
 import numpy as np
