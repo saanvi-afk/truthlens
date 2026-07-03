@@ -30,26 +30,3 @@ iai_miniproject/
 │   └── visualizer.py      # Plotly/Matplotlib charts
 └── models/                 # Saved model files (auto-generated)
 ```
-
-## Pipeline
-
-1. **Text Cleaning** — Remove URLs, HTML, special characters, lowercase
-2. **Tokenization** — NLTK word tokenizer + stopword removal
-3. **TF-IDF Vectorization** — 3,000 features with bigrams
-4. **Classification** — Logistic Regression / Naive Bayes / Random Forest / Ensemble
-5. **Explainability** — Word-level feature attribution + text highlighting
-
-##  Models
-
-| Model | Task |
-|-------|------|
-| Logistic Regression | Fake News & Propaganda |
-| Naive Bayes | Fake News & Propaganda |
-| Random Forest | Fake News & Propaganda |
-| Ensemble (majority vote) | Both tasks |
-
-##  References
-
-- Da San Martino et al. (2019). *Fine-Grained Analysis of Propaganda in News Article*. EMNLP.
-- Ahmed et al. (2017). *Detection of Online Fake News Using N-Gram Analysis and ML*. INISTA.
-- Shu et al. (2017). *Fake News Detection on Social Media*. ACM SIGKDD.
