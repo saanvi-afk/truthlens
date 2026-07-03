@@ -1,18 +1,11 @@
 # TruthLens — Propaganda & Fake News Detection
 
 A machine learning web application that classifies news articles as **FAKE** or **REAL** and detects **propaganda techniques**, with word-level explainability.
-
-##  Quick Start
-
-```bash
-# Install dependencies
+```
 pip install -r requirements.txt
 
-# Run the app
 streamlit run app.py
 ```
-
-Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ##  Project Structure
 
